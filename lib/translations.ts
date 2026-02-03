@@ -1,0 +1,214 @@
+export type Language = "en" | "ar";
+
+export const translations = {
+    en: {
+        nav: {
+            about: "About",
+            benefits: "Benefits",
+            howItWorks: "How It Works",
+            testimonials: "Testimonials",
+            bookNow: "Book Now",
+        },
+        hero: {
+            title: "Unlock Your Potential as a Parent",
+            subtitle: "Transform your family life with personalized 1-on-1 coaching. Build a deeper connection with your children and find your confidence.",
+            ctaPrimary: "Book Your Free Session",
+            ctaSecondary: "How It Works",
+        },
+        about: {
+            title: "Hi, I'm Heba Hassan",
+            subtitle: "Certified Parenting Coach",
+            description1: "I help parents move from chaos and conflict to connection and calm. My mission is to empower you with the tools you need to understand your child's behavior and build a lasting bond.",
+            description2: "With a background in child development and years of coaching experience, I understand that every family is unique. That's why my approach is never one-size-fits-all.",
+            credentials: [
+                "Certified Positive Discipline Educator",
+                "Specialist in Child Psychology",
+                "Proven Track Record with 100+ Families",
+            ],
+            cta: "Start Your Journey",
+            experience: "5+ Years",
+            experienceText: "Experience transforming family dynamics",
+        },
+        benefits: {
+            title: "Why Parent Coaching?",
+            subtitle: "Discover the change that's possible for your family.",
+            items: [
+                {
+                    title: "Deep Connection",
+                    description: "Build a relationship based on trust, respect, and understanding.",
+                },
+                {
+                    title: "Effective Communication",
+                    description: "Learn to listen and speak so your child feels heard and valued.",
+                },
+                {
+                    title: "Confidence in Parenting",
+                    description: "Trust your instincts and navigate challenges with calm assurance.",
+                },
+            ],
+        },
+        howItWorks: {
+            title: "How It Works",
+            subtitle: "A simple 3-step process to start your transformation.",
+            steps: [
+                {
+                    title: "Book Your Slot",
+                    description: "Choose a time that works for you using the calendar below.",
+                },
+                {
+                    title: "Confirm Payment",
+                    description: "Send 750 EGP via InstaPay to secure your spot and WhatsApp the receipt.",
+                },
+                {
+                    title: "Meet Online",
+                    description: "Join the private video call and get your personalized action plan.",
+                },
+            ],
+        },
+        pricing: {
+            title: "Investment",
+            subtitle: "Invest in your family's future with a dedicated 1-on-1 session.",
+            mostPopular: "Most Popular",
+            sessionType: "Single Coaching Session",
+            sessionDesc: "60-minute intensive 1-on-1 video call",
+            price: "750",
+            currency: "EGP",
+            paymentTitle: "Payment via InstaPay",
+            payDirect: "Pay directly via InstaPay App",
+            confirmationTitle: "Confirmation Required",
+            confirmationText: "After booking on Calendly, please send a screenshot of your payment receipt to WhatsApp:",
+            policyTitle: "Cancellation Policy",
+            policy1: { title: "Full Refund", desc: "Cancel more than 48 hours in advance." },
+            policy2: { title: "50% Refund", desc: "Cancel within 48 hours of your session." },
+            policy3: { title: "No Refund", desc: "Same-day cancellations or no-shows." },
+            introTitle: "Free Intro Session",
+            introNew: "New Clients Only",
+            introDesc: "Not sure if coaching is right for you? Let's chat for 15 minutes to see if we're a good fit.",
+            introBtn: "Book Free Intro",
+        },
+        testimonials: {
+            title: "Success Stories",
+            subtitle: "Hear from parents who have transformed their lives.",
+            t1: "Before coaching, our house was a war zone. Now, we actually enjoy our time together. Heba changed our lives.",
+            t1Author: "Sarah M.",
+            t2: "I was skeptical at first, but the practical tools Heba gave me worked immediately. Highly recommend!",
+            t2Author: "Ahmed K.",
+            t3: "Finally, someone who understands and doesn't judge. I feel so much more confident as a mother.",
+            t3Author: "Nour E.",
+        },
+        cta: {
+            title: "Ready to Transform Your Family?",
+            subtitle: "Don't wait for things to get better on their own. Take the first step today.",
+            btn: "Schedule Now",
+        },
+        footer: {
+            rights: "All rights reserved.",
+            madeWith: "Made with",
+        },
+    },
+    ar: {
+        nav: {
+            about: "عن المدربة",
+            benefits: "المميزات",
+            howItWorks: "كيف نعمل",
+            testimonials: "آراء العملاء",
+            bookNow: "احجز الآن",
+        },
+        hero: {
+            title: "أطلقي العنان لإمكاناتك كأم",
+            subtitle: "حولي حياة عائلتك مع جلسات كوتشينج خاصة ١-ل-١. ابني علاقة أعمق مع أطفالك واستعيدي ثقتك بنفسك.",
+            ctaPrimary: "احجزي جلستك المجانية",
+            ctaSecondary: "كيف نعمل",
+        },
+        about: {
+            title: "أهلاً، أنا هبة حسن",
+            subtitle: "كوتش تربية معتمد",
+            description1: "أساعد الآباء والأمهات على الانتقال من الفوضى والصراع إلى التواصل والهدوء. مهمتي هي تمكينكم بالأدوات التي تحتاجونها لفهم سلوك طفلكم وبناء رابط دائم.",
+            description2: "مع خلفية في تطور الطفل وسنوات من الخبرة في الكوتشينج، أفهم أن كل عائلة فريدة من نوعها. ولهذا السبب فإن نهجي ليس مقاساً واحداً يناسب الجميع.",
+            credentials: [
+                "معلمة تربية إيجابية معتمدة",
+                "متخصصة في علم نفس الطفل",
+                "سجل حافل بالنجاح مع أكثر من ١٠٠ عائلة",
+            ],
+            cta: "ابدئي رحلتك",
+            experience: "أكثر من ٥ سنوات",
+            experienceText: "خبرة في تحويل ديناميكيات الأسرة",
+        },
+        benefits: {
+            title: "لماذا كوتشينج التربية؟",
+            subtitle: "اكتشفي التغيير الممكن لعائلتك.",
+            items: [
+                {
+                    title: "تواصل عميق",
+                    description: "ابني علاقة قائمة على الثقة والاحترام والتفاهم.",
+                },
+                {
+                    title: "تواصل فعال",
+                    description: "تعلمي الاستماع والتحدث ليشعر طفلك بأنه مسموع ومقدر.",
+                },
+                {
+                    title: "ثقة في التربية",
+                    description: "ثقي في حدسك وتعامل مع التحديات بهدوء ويقين.",
+                },
+            ],
+        },
+        howItWorks: {
+            title: "كيف نعمل",
+            subtitle: "عملية بسيطة من ٣ خطوات لبدء تحولك.",
+            steps: [
+                {
+                    title: "احجزي موعدك",
+                    description: "اختاري وقتاً يناسب جدولك باستخدام التقويم أدناه.",
+                },
+                {
+                    title: "أكدي الدفع",
+                    description: "أرسلي ٧٥٠ جنيه عبر إنستا باي لتأكيد حجزك وأرسلي الإيصال عبر واتساب.",
+                },
+                {
+                    title: "اللقاء أونلاين",
+                    description: "انضمي إلى مكالمة الفيديو الخاصة واحصلي على خطة عملك الشخصية.",
+                },
+            ],
+        },
+        pricing: {
+            title: "الاستثمار",
+            subtitle: "استثمري في مستقبل عائلتك بجلسة مكثفة خاصة.",
+            mostPopular: "الأكثر طلباً",
+            sessionType: "جلسة كوتشينج فردية",
+            sessionDesc: "مكالمة فيديو مكثفة لمدة ٦٠ دقيقة",
+            price: "٧٥٠",
+            currency: "ج.م",
+            paymentTitle: "الدفع عبر إنستا باي",
+            payDirect: "ادفعي مباشرة عبر تطبيق إنستا باي",
+            confirmationTitle: "مطلوب تأكيد",
+            confirmationText: "بعد الحجز على كاليندلي، يرجى إرسال لقطة شاشة لإيصال الدفع إلى واتساب:",
+            policyTitle: "سياسة الإلغاء",
+            policy1: { title: "استرداد كامل", desc: "الإلغاء قبل أكثر من ٤٨ ساعة." },
+            policy2: { title: "استرداد ٥٠٪", desc: "الإلغاء خلال ٤٨ ساعة من الجلسة." },
+            policy3: { title: "لا يوجد استرداد", desc: "الإلغاء في نفس اليوم أو عدم الحضور." },
+            introTitle: "جلسة تعارف مجانية",
+            introNew: "للعملاء الجدد فقط",
+            introDesc: "لست متأكدة مما إذا كان الكوتشينج مناسباً لك؟ دعينا نتحدث لمدة ١٥ دقيقة لنرى.",
+            introBtn: "احجزي جلسة تعارف",
+        },
+        testimonials: {
+            title: "قصص نجاح",
+            subtitle: "اسمعي من أمهات وآباء غيروا حياتهم.",
+            t1: "قبل الكوتشينج، كان منزلنا ساحة حرب. الآن، نحن نستمتع بوقتنا معاً. هبة غيرت حياتنا.",
+            t1Author: "سارة م.",
+            t2: "كنت متشككاً في البداية، لكن الأدوات العملية التي أعطتني إياها هبة عملت فوراً. أنصح بها بشدة!",
+            t2Author: "أحمد ك.",
+            t3: "أخيراً، شخص يفهم ولا يحكم. أشعر بثقة أكبر كأم الآن.",
+            t3Author: "نور ع.",
+        },
+        cta: {
+            title: "مستعدة لتحويل عائلتك؟",
+            subtitle: "لا تنتظري أن تتحسن الأمور من تلقاء نفسها. خذي الخطوة الأولى اليوم.",
+            btn: "احجزي الآن",
+        },
+        footer: {
+            rights: "جميع الحقوق محفوظة.",
+            madeWith: "صنع بـ",
+        },
+    },
+};

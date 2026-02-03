@@ -6,8 +6,11 @@ import { BookingButton } from "@/components/features/BookingButton";
 import { motion } from "framer-motion";
 import { ArrowRight, Star } from "lucide-react";
 import Link from "next/link";
+import { useLanguage } from "@/components/providers/LanguageContext";
 
 export function Hero() {
+    const { t } = useLanguage();
+
     return (
         <div className="relative pt-32 pb-16 md:pt-48 md:pb-32 overflow-hidden bg-gradient-to-b from-blue-50/50 to-white">
             {/* Background decoration */}
@@ -34,7 +37,7 @@ export function Hero() {
                         transition={{ duration: 0.5, delay: 0.1 }}
                         className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6"
                     >
-                        Unlock Your Potential as a <span className="text-primary">Parent</span>
+                        {t.hero.title}
                     </motion.h1>
 
                     <motion.p
@@ -43,23 +46,26 @@ export function Hero() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl leading-relaxed"
                     >
-                        Navigate the challenges of parenthood with confidence. Get personalized guidance, practical strategies, and the support you need to build a happier, stronger family.
+                        {t.hero.subtitle}
                     </motion.p>
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.3 }}
-                        className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
+                        className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto flex-wrap justify-center"
                     >
-                        <Button size="lg" className="h-14 px-8 text-lg" asChild>
-                            <Link href="https://calendly.com/hassanheba-eg/parenting-1-1-coaching-session?month=2026-02" target="_blank">
-                                Book Your Free Session <ArrowRight className="ml-2 w-5 h-5" />
-                            </Link>
-                        </Button>
-                        <Button size="lg" variant="outline" className="h-14 px-8 text-lg" asChild>
+                        <BookingButton size="lg" className="h-14 px-8 text-lg w-full sm:w-auto" url="https://calendly.com/hassanheba-eg/parenting-1-1-coaching-session?month=2026-02">
+                            {t.hero.ctaPrimary} <ArrowRight className="ml-2 w-5 h-5 rtl:mr-2 rtl:ml-0 rtl:rotate-180" />
+                        </BookingButton>
+
+                        <BookingButton size="lg" variant="secondary" className="h-14 px-8 text-lg w-full sm:w-auto bg-purple-100 text-purple-700 hover:bg-purple-200" url="http://calendly.com/hassanheba-eg/15-minute-intro-session">
+                            {t.hero.ctaFree}
+                        </BookingButton>
+
+                        <Button size="lg" variant="outline" className="h-14 px-8 text-lg w-full sm:w-auto" asChild>
                             <Link href="#how-it-works">
-                                How It Works
+                                {t.hero.ctaSecondary}
                             </Link>
                         </Button>
                     </motion.div>

@@ -12,7 +12,8 @@ export const translations = {
         hero: {
             title: "Unlock Your Potential as a Parent",
             subtitle: "Transform your family life with personalized 1-on-1 coaching. Build a deeper connection with your children and find your confidence.",
-            ctaPrimary: "Book Your Free Session",
+            ctaPrimary: "Book 1:1 Session",
+            ctaFree: "Free Intro Session",
             ctaSecondary: "How It Works",
         },
         about: {
@@ -117,7 +118,8 @@ export const translations = {
         hero: {
             title: "أطلقي العنان لإمكاناتك كأم",
             subtitle: "حولي حياة عائلتك مع جلسات كوتشينج خاصة ١-ل-١. ابني علاقة أعمق مع أطفالك واستعيدي ثقتك بنفسك.",
-            ctaPrimary: "احجزي جلستك المجانية",
+            ctaPrimary: "احجزي جلسة خاصة",
+            ctaFree: "جلسة تعارف مجانية",
             ctaSecondary: "كيف نعمل",
         },
         about: {

@@ -34,13 +34,13 @@ export function Footer() {
                     <div>
                         <h4 className="font-bold text-white mb-4">Connect</h4>
                         <div className="flex gap-4 mb-4">
-                            <Link href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+                            <Link href="https://www.instagram.com/hebahassan6305/" target="_blank" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
                                 <Instagram className="w-5 h-5" />
                             </Link>
-                            <Link href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+                            <Link href="https://web.facebook.com/heba.hassan1502" target="_blank" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
                                 <Facebook className="w-5 h-5" />
                             </Link>
-                            <Link href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+                            <Link href="https://www.linkedin.com/in/heba-hassan-a42087327/" target="_blank" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
                                 <Linkedin className="w-5 h-5" />
                             </Link>
                         </div>

@@ -100,7 +100,7 @@ export function Pricing() {
                                 {t.pricing.introDesc}
                             </p>
                             <Button className="w-full bg-white text-primary border-primary/20 hover:bg-white/80" variant="outline" asChild>
-                                <Link href="http://calendly.com/hassanheba-eg/15-minute-intro-session" target="_blank">
+                                <Link href="https://calendar.app.google/dh6JXecgJycvfDY19" target="_blank">
                                     {t.pricing.introBtn}
                                 </Link>
                             </Button>

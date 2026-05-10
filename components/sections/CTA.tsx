@@ -51,7 +51,7 @@ export function CallToAction() {
                         className="h-16 px-10 text-lg rounded-2xl shadow-lg bg-white text-primary hover:bg-gray-100 font-bold"
                         asChild
                     >
-                        <Link href="https://calendly.com/hassanheba-eg/parenting-1-1-coaching-session?month=2026-02" target="_blank">
+                        <Link href="https://calendar.app.google/RhuKW947BT3fMGtKA" target="_blank">
                             {t.cta.btn} <ArrowRight className="ml-2 w-5 h-5 rtl:mr-2 rtl:ml-0 rtl:rotate-180" />
                         </Link>
                     </Button>

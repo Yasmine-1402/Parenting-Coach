@@ -73,7 +73,7 @@ export function About() {
                         </ul>
 
                         <Button size="lg" asChild>
-                            <Link href="https://calendly.com/hassanheba-eg/parenting-1-1-coaching-session?month=2026-02" target="_blank">
+                            <Link href="https://calendar.app.google/RhuKW947BT3fMGtKA" target="_blank">
                                 {t.about.cta}
                             </Link>
                         </Button>

@@ -55,17 +55,17 @@ export function Hero() {
                         transition={{ duration: 0.5, delay: 0.3 }}
                         className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto flex-wrap justify-center"
                     >
-                        <BookingButton size="lg" className="h-14 px-8 text-lg w-full sm:w-auto" url="https://calendly.com/hassanheba-eg/parenting-1-1-coaching-session?month=2026-02">
-                            {t.hero.ctaPrimary} <ArrowRight className="ml-2 w-5 h-5 rtl:mr-2 rtl:ml-0 rtl:rotate-180" />
+                        <BookingButton size="lg" className="h-14 px-8 text-lg w-full sm:w-auto bg-purple-100 text-purple-700 hover:bg-purple-200" url="https://calendar.app.google/dh6JXecgJycvfDY19">
+                            Book Your Free Session
                         </BookingButton>
 
-                        <BookingButton size="lg" variant="secondary" className="h-14 px-8 text-lg w-full sm:w-auto bg-purple-100 text-purple-700 hover:bg-purple-200" url="http://calendly.com/hassanheba-eg/15-minute-intro-session">
-                            {t.hero.ctaFree}
+                        <BookingButton size="lg" className="h-14 px-8 text-lg w-full sm:w-auto" url="https://calendar.app.google/RhuKW947BT3fMGtKA">
+                            Book 1:1 Session
                         </BookingButton>
 
                         <Button size="lg" variant="outline" className="h-14 px-8 text-lg w-full sm:w-auto" asChild>
                             <Link href="#how-it-works">
-                                {t.hero.ctaSecondary}
+                                How It Works
                             </Link>
                         </Button>
                     </motion.div>

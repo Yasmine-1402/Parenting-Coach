@@ -9,7 +9,7 @@ interface BookingButtonProps extends ButtonProps {
 }
 
 export function BookingButton({ children, onClick, url, ...props }: BookingButtonProps) {
-    const defaultUrl = "https://calendly.com/hassanheba-eg/parenting-1-1-coaching-session?month=2026-02";
+    const defaultUrl = "https://calendar.app.google/RhuKW947BT3fMGtKA";
     const targetUrl = url || defaultUrl;
 
     useEffect(() => {

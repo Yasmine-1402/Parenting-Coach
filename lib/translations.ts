@@ -12,8 +12,8 @@ export const translations = {
         hero: {
             title: "Unlock Your Potential as a Parent",
             subtitle: "Transform your family life with personalized 1-on-1 coaching. Build a deeper connection with your children and find your confidence.",
-            ctaPrimary: "Book 1:1 Session",
-            ctaFree: "Free Intro Session",
+            ctaPrimary: "Book Your Free Session",
+            ctaFree: "Book 1:1 Session",
             ctaSecondary: "How It Works",
         },
         about: {
